@@ -50,7 +50,7 @@ class AddressBookMain {
 
             }
             else if (choice == 2) {
-                ParseCSVLineByLine obj1= new ParseCSVLineByLine();
+                Address obj1= new Address();
                 obj1.print();
             }
             menu();
